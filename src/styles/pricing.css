@@ -5,19 +5,31 @@
 .pricing-card {
   float: left;
   width: 33.3%;
-  padding: 5px;
 }
 
-.price-list {
+.price-list-main {
+  background-color: hsl(237, 63%, 64%);
   list-style-type: none;
   border: 1px solid #eee;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.price-list-secondary {
+  list-style-type: none;
+  background-color: hsl(240, 78%, 98%);
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
 }
 
 .price-list-header {
   color: hsl(233, 13%, 49%);
-  font-size: 25px;
+  font-size: 17px;
 }
 
 .price {
@@ -33,11 +45,12 @@
 }
 
 .price-button {
-  background-color: white;
-  border: none;
+  border-radius: 5px;
+  border: 1px solid hsl(233, 13%, 49%);
   color: hsl(237, 63%, 64%);
-  padding: 10px 25px;
+  padding: 10px 25%;
   text-align: center;
-  text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: white;
 }

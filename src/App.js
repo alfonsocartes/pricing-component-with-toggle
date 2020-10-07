@@ -4,12 +4,12 @@ import Pricing from "./components/Pricing.js";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App background">
       <header></header>
       <body>
         <Pricing />
       </body>
-      <footer>
+      {/* <footer>
         <div class="attribution">
           Challenge by
           <a
@@ -21,7 +21,7 @@ function App() {
           </a>
           . Coded by <a href="www.cartes.dev">Alfonso Carte</a>.
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }

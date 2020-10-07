@@ -14,8 +14,8 @@ export default function Pricing() {
       </div>
       {/* Pricing cards */}
       <div>
-        <div class="pricing-card pricing-card-secondary">
-          <ul class="price-list">
+        <div class="pricing-card">
+          <ul class="price-list-secondary">
             <li class="price-list-header">Basic</li>
             <li class="price monthly-price">$19.99</li>
             <li class="price yearly-price">$199.99</li>
@@ -23,12 +23,12 @@ export default function Pricing() {
             <li>2 Users Allowed</li>
             <li>Send up to 3 GB</li>
             <li>
-              <button class="price-button">Learn More</button>
+              <button class="price-button">LEARN MORE</button>
             </li>
           </ul>
         </div>
-        <div class="pricing-card pricing-card-main">
-          <ul class="price-list">
+        <div class="pricing-card">
+          <ul class="price-list-main">
             <li class="price-list-header">Professional</li>
             <li class="price monthly-price">$24.99</li>
             <li class="price yearly-price">$249.99</li>
@@ -36,12 +36,12 @@ export default function Pricing() {
             <li>5 Users Allowed</li>
             <li>Send up to 10 GB</li>
             <li>
-              <button class="price-button">Learn More</button>
+              <button class="price-button">LEARN MORE</button>
             </li>
           </ul>
         </div>
-        <div class="pricing-card pricing-card-secondary">
-          <ul class="price-list">
+        <div class="pricing-card">
+          <ul class="price-list-secondary">
             <li class="price-list-header">Master</li>
             <li class="price monthly-price">$39.99</li>
             <li class="price yearly-price">$399.99</li>
@@ -49,7 +49,7 @@ export default function Pricing() {
             <li>10 Users Allowed</li>
             <li>Send up to 20 GB</li>
             <li>
-              <button class="price-button">Learn More</button>
+              <button class="price-button">LEARN MORE</button>
             </li>
           </ul>
         </div>

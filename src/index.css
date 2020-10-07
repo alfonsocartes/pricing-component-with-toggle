@@ -1,14 +1,14 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
 }
 
-.header {
-  color: hsl(234, 14%, 74%);
+.background {
+  background-color: hsl(240, 78%, 98%);
+  background-image: url("./images/bg-bottom.svg"), url("./images/bg-top.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom, right top;
 }
 
 .attribution {
