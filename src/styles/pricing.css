@@ -1,47 +1,60 @@
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .pricing-card {
   float: left;
+  position: relative;
   width: 33.3%;
+  max-width: 375px;
+}
+
+.price-list {
+  margin: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
 }
 
 .price-list-main {
-  background-color: hsl(237, 63%, 64%);
-  list-style-type: none;
-  border: 1px solid #eee;
-  margin: 0;
-  padding: 1rem;
-  border-radius: 1rem;
-  background-color: white;
+  background: linear-gradient(130deg, hsl(234, 14%, 74%), hsl(237, 63%, 64%));
+  color: hsl(240, 78%, 98%);
+}
+
+.featured {
+  margin-top: -2rem;
+  padding-top: 2rem;
+  z-index: 1;
 }
 
 .price-list-secondary {
-  list-style-type: none;
-  background-color: hsl(240, 78%, 98%);
-  border: 1px solid #eee;
-  margin: 0;
-  padding: 1rem;
-  border-radius: 1rem;
   background-color: white;
+  color: hsl(232, 13%, 33%);
 }
 
 .price-list-header {
-  color: hsl(233, 13%, 49%);
   font-size: 17px;
+  border-top: 0px solid;
+  padding: 20px;
 }
 
 .price {
-  color: hsl(232, 13%, 33%);
   font-size: 60px;
+  border-top: 0px solid;
+  padding: 20px;
 }
 
 .pricing-card li {
-  border-bottom: 1px solid hsl(240, 78%, 98%);
-  color: hsl(232, 13%, 33%);
+  list-style-type: none;
   padding: 20px;
   text-align: center;
+}
+
+.feature {
+  border-top: 1px solid hsl(234, 14%, 74%);
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  margin-bottom: -1px;
 }
 
 .price-button {
@@ -52,5 +65,11 @@
   text-align: center;
   font-size: 15px;
   font-weight: 700;
-  background-color: white;
+  background-color: inherit;
+  margin: 20px 0px 20px 0px;
+}
+
+.price-button-main {
+  border: 1px solid white;
+  color: white;
 }
