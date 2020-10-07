@@ -14,15 +14,23 @@
   display: flex;
   flex-direction: row;
 }
+
 .toggle label {
   margin-top: 1rem;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: baseline;
+  flex-wrap: wrap;
 }
 
 .pricing-card {
   float: left;
   position: relative;
-  width: 33.3%;
-  max-width: 375px;
+  width: 375px;
 }
 
 .price-list {
@@ -38,14 +46,17 @@
 }
 
 .featured {
-  margin-top: -2rem;
-  padding-top: 2rem;
-  z-index: 1;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
 }
 
 .price-list-secondary {
   background-color: white;
   color: hsl(232, 13%, 33%);
+}
+
+.price-list-header-main {
+  margin-top: 1rem;
 }
 
 .price-list-header {
@@ -87,4 +98,5 @@
 .price-button-main {
   border: 1px solid white;
   color: white;
+  margin-bottom: 2rem;
 }

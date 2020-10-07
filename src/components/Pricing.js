@@ -18,24 +18,21 @@ export default function Pricing() {
         </div>
       </div>
       {/* Pricing cards */}
-      <div>
+      <div class="pricing-cards">
         <div class="pricing-card">
-          <div class="price-list price-list-secondary">
-            <div class="price-list-header price-list-header-secondary">
-              Basic
-            </div>
-            <div class="price monthly-price">$19.99</div>
-            <div class="price yearly-price">$199.99</div>
-            <ul>
-              <li class="feature">500 GB Storage</li>
-              <li class="feature">2 Users Allowed</li>
-              <li class="feature">Send up to 3 GB</li>
-            </ul>
-            <div>
+          <ul class="price-list price-list-secondary">
+            <li class="price-list-header price-list-header-secondary">Basic</li>
+            <li class="price monthly-price">$19.99</li>
+            <li class="price yearly-price">$199.99</li>
+            <li class="feature">500 GB Storage</li>
+            <li class="feature">2 Users Allowed</li>
+            <li class="feature">Send up to 3 GB</li>
+            <li>
               <button class="price-button">LEARN MORE</button>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
+
         <div class="pricing-card featured">
           <ul class="price-list price-list-main">
             <li class="price-list-header price-list-header-main">
