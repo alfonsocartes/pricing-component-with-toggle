@@ -4,7 +4,7 @@ import Pricing from "./components/Pricing.js";
 
 function App() {
   return (
-    <div className="App background">
+    <div className="App">
       <header></header>
       <body>
         <Pricing />

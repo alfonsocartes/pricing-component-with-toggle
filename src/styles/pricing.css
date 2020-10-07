@@ -38,7 +38,7 @@
   margin: 0;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: white;
+  background-color: hsl(240, 78%, 98%);
 }
 
 .price-list-main {
@@ -47,8 +47,10 @@
 }
 
 .featured {
-  margin-top: -1rem;
-  margin-bottom: 1rem;
+  /* margin-top: -1rem;
+  margin-bottom: 1rem; */
+  margin: -1rem -1rem;
+  z-index: 1;
 }
 
 .price-list-secondary {
@@ -70,6 +72,12 @@
   font-size: 60px;
   border-top: 0px solid;
   padding: 20px;
+  vertical-align: middle;
+}
+
+.currency {
+  font-size: 35px;
+  padding-bottom: 10px;
 }
 
 .pricing-card li {
@@ -81,23 +89,45 @@
 .feature {
   border-top: 1px solid hsl(234, 14%, 74%);
   border-bottom: 1px solid hsl(234, 14%, 74%);
-  margin-bottom: -1px;
+  margin: 0px 35px -1px 35px;
 }
 
 .price-button {
   border-radius: 5px;
-  border: 1px solid hsl(233, 13%, 49%);
-  color: hsl(237, 63%, 64%);
+  border: 0px solid hsl(233, 13%, 49%);
+  background: linear-gradient(130deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: hsl(240, 78%, 98%);
   padding: 10px 25%;
   text-align: center;
   font-size: 15px;
   font-weight: 700;
   background-color: inherit;
-  padding: 10px 20%;
+  padding: 10px 25%;
+}
+.price-button:hover {
+  border-radius: 5px;
+  border: 1px solid hsl(233, 13%, 49%);
+  background: inherit;
+  color: hsl(233, 13%, 49%);
+  padding: 10px 25%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: inherit;
+  padding: 10px 15%;
+  cursor: pointer;
 }
 
 .price-button-main {
   border: 1px solid white;
-  color: white;
+  background: hsl(240, 78%, 98%);
+  color: hsl(236, 72%, 79%);
   margin-bottom: 2rem;
+}
+
+.price-button-main:hover {
+  border: 1px solid hsl(240, 78%, 98%);
+  color: hsl(240, 78%, 98%);
+  margin-bottom: 2rem;
+  cursor: pointer;
 }

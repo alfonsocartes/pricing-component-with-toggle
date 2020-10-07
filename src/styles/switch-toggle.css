@@ -40,7 +40,7 @@
 }
 
 input:checked + .slider {
-  background-color: hsl(236, 72%, 79%);
+  background: linear-gradient(130deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 }
 
 input:focus + .slider {

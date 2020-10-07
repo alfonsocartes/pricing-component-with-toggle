@@ -3,7 +3,7 @@ import "../styles/pricing.css";
 import "../styles/switch-toggle.css";
 
 export default function Pricing() {
-  const [isMonthly, setisMonthly] = useState(true);
+  const [isMonthly, setisMonthly] = useState(false);
 
   return (
     <div class="pricing">
@@ -29,9 +29,13 @@ export default function Pricing() {
           <ul class="price-list price-list-secondary">
             <li class="price-list-header price-list-header-secondary">Basic</li>
             {isMonthly ? (
-              <li class="price monthly-price">$19.99</li>
+              <li class="price monthly-price">
+                <span class="currency"> $ </span>19.99
+              </li>
             ) : (
-              <li class="price yearly-price">$199.99</li>
+              <li class="price yearly-price">
+                <span class="currency"> $ </span>199.99
+              </li>
             )}
             <li class="feature">500 GB Storage</li>
             <li class="feature">2 Users Allowed</li>
@@ -48,9 +52,13 @@ export default function Pricing() {
               Professional
             </li>
             {isMonthly ? (
-              <li class="price monthly-price">$24.99</li>
+              <li class="price monthly-price">
+                <span class="currency"> $ </span>24.99
+              </li>
             ) : (
-              <li class="price yearly-price">$249.99</li>
+              <li class="price yearly-price">
+                <span class="currency"> $ </span>249.99
+              </li>
             )}
             <li class="feature">1 TB Storage</li>
             <li class="feature">5 Users Allowed</li>
@@ -66,9 +74,13 @@ export default function Pricing() {
               Master
             </li>
             {isMonthly ? (
-              <li class="price monthly-price">$39.99</li>
+              <li class="price monthly-price">
+                <span class="currency"> $ </span>39.99
+              </li>
             ) : (
-              <li class="price yearly-price">$399.99</li>
+              <li class="price yearly-price">
+                <span class="currency"> $ </span>399.99
+              </li>
             )}
             <li class="feature">2 TB Storage</li>
             <li class="feature">10 Users Allowed</li>

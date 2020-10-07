@@ -10,6 +10,7 @@ body {
   background-image: url("./images/bg-bottom.svg"), url("./images/bg-top.svg");
   background-repeat: no-repeat;
   background-position: left bottom, right top;
+  min-height: 100vh;
 }
 
 .attribution {
