@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.pricing-card {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+
+.price-list {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.price-list-header {
+  color: hsl(233, 13%, 49%);
+  font-size: 25px;
+}
+
+.price {
+  color: hsl(232, 13%, 33%);
+  font-size: 60px;
+}
+
+.pricing-card li {
+  border-bottom: 1px solid hsl(240, 78%, 98%);
+  color: hsl(232, 13%, 33%);
+  padding: 20px;
+  text-align: center;
+}
+
+.price-button {
+  background-color: white;
+  border: none;
+  color: hsl(237, 63%, 64%);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
