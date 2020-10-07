@@ -1,6 +1,21 @@
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+.pricing {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-header {
+  color: hsl(232, 13%, 33%);
+  margin: 3rem;
+  align-self: center;
+}
+
+.toggle {
+  color: hsl(234, 14%, 74%);
+  display: flex;
+  flex-direction: row;
+}
+.toggle label {
+  margin-top: 1rem;
 }
 
 .pricing-card {
@@ -18,7 +33,7 @@
 }
 
 .price-list-main {
-  background: linear-gradient(130deg, hsl(234, 14%, 74%), hsl(237, 63%, 64%));
+  background: linear-gradient(130deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   color: hsl(240, 78%, 98%);
 }
 

@@ -1,15 +1,20 @@
 import React from "react";
 import "../styles/pricing.css";
+import "../styles/switch-toggle.css";
 
 export default function Pricing() {
   return (
     <div class="pricing">
       <div class="pricing-header">
         <h1>Our Pricing</h1>
-        <div>
-          <div>Annually</div>
-          <div>_toggle_</div>
-          <div>Monthly</div>
+        <div class="toggle">
+          <h4>Annually</h4>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+
+          <h4>Monthly</h4>
         </div>
       </div>
       {/* Pricing cards */}
