@@ -28,9 +28,9 @@
 }
 
 .pricing-card {
-  float: left;
-  position: relative;
-  width: 375px;
+  /* float: left; */
+  /* position: relative; */
+  min-width: 30%;
 }
 
 .price-list {
@@ -92,7 +92,7 @@
   font-size: 15px;
   font-weight: 700;
   background-color: inherit;
-  margin: 20px 0px 20px 0px;
+  padding: 10px 20%;
 }
 
 .price-button-main {
