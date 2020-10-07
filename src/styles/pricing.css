@@ -30,7 +30,8 @@
 .pricing-card {
   /* float: left; */
   /* position: relative; */
-  min-width: 30%;
+  min-width: 300px;
+  min-width: 330px;
 }
 
 .price-list {
